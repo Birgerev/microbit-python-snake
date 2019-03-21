@@ -66,7 +66,7 @@ while True:
         posi = snake_earlier[i-1]
         if snake_pos.x == posi.x :
             if snake_pos.y == posi.y :
-                if i >= len(snake_earlier) - snake_lenght :
+                if i > len(snake_earlier) - snake_lenght :
                     display.scroll("dead", wait=True, loop=True)
     
     #Cherry Check
