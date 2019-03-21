@@ -20,7 +20,7 @@ class Position:
 
 #Snake properties
 snake_earlier = []
-snake_lenght = 1
+snake_lenght = 2
 snake_pos = Position(0, 3)
 snake_direction = 1;    #The direction that the snake is facing
                         #  0 = Up  |  1 = Right  |  2 = Down  |  3 = Left
